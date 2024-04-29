@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Varela Round';
+}
+
+.title {
+    color: #D9306E;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+main {
+    margin: 35px 140px;
+}
+
+.main__p {
+    font-size: 12px;
+    line-height: 150%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    /*DEBUG*/
+    width: auto;
+    border: 1em solid #040;
+  
+}
+
+.card {
+    background-color: #08080D;
+    max-width: 265px;
+    height: 75px;
+    margin: auto;
+}
+
+.container__img {
+    width: 75px;
+    float: left;
+}
+
+.container__lines {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-top: 10px;
+    line-height: 125%;
+}
+
+.white-title-card {
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+.white-subtitle-card {
+    color: white;
+    font-size: 10px;
+}
+
+.blue-mail-card {
+    color: #0F16A6;
+    font-size: 10px;
+}
