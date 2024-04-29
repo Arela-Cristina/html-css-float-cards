@@ -30,15 +30,18 @@ main {
 .container {
     /*DEBUG*/
     width: auto;
-    border: 1em solid #040;
-  
+    border: 1em solid white;
+    display: flex;
+    gap: 112px;
+
 }
 
 .card {
     background-color: #08080D;
-    max-width: 265px;
+    width: 258px;
     height: 75px;
-    margin: auto;
+    margin: 0px;
+    box-shadow: 0px 0px 7px 0px grey;
 }
 
 .container__img {
